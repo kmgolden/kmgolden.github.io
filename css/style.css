@@ -1,0 +1,185 @@
+#sched-body{
+	font-family: "Karla", sans-serif !important;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	float: left;
+	margin: 0;
+	/* font-size: 2rem; */
+}
+
+li{
+	margin: 0;
+	padding: 0;	
+	font-weight: 700;
+	font-style: italic;
+
+	line-height: 1.25em;
+	font-size: 2.5rem;
+}
+
+h2{
+	font-style: italic;
+}
+
+p {
+	font-size: 3.6rem;
+	line-height: 1em;
+	margin: 0 0 0.75em 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+svg{
+	z-index: 99999999999999;
+}
+
+#nav{
+	position: fixed;
+	right: 283px;
+	bottom: 272px;
+	z-index: 9999999999;
+}
+
+#diplogo{
+	position: fixed;
+	z-index: 999999999;
+	right: 102px;
+	top: 102px;
+}
+
+#sdflogo{
+    z-index: 9999999999;
+    position: fixed;
+    background-color: #fff;
+    padding: 22px 25px 15px 25px;
+    top: 134px;
+}
+
+
+#whiteout-top{
+	position: fixed;
+	width:100%;
+	top:0;
+	left:0;
+	height: 51px;
+	z-index: 10000;
+	background-color: #fff;
+	/* border-top: 51px solid white; */
+}
+
+#whiteout-right{
+	position: fixed;
+	width: 51px;
+	top:0;
+	right: 0;
+	height: 100%;
+	z-index: 10000;
+	background-color: #fff;
+}
+
+#whiteout-bottom{
+	position: fixed;
+	width:100%;
+	bottom: 0;
+	left:0;
+	height: 51px;
+	z-index: 10000;
+	background-color: #fff;
+	/* border-bottom: 51px solid white; */
+}
+
+#whiteout-left{
+	position: fixed;
+	width: 51px;
+	top:0;
+	left:0;
+	height: 100%;
+	z-index: 10000;
+	background-color: #fff;
+	/* border-left: 51px solid white; */
+}
+
+.logo{
+	z-index: 999999;
+	position: fixed;
+	background-color: #fff;
+	right: 112px;
+	bottom: -9px;
+	padding: 35px;
+	/* height: 20px; */
+}
+
+#border-top{
+	border-bottom: 27px solid black;
+	/* display: block; */
+	width: 100%;
+	margin: auto;
+	position: fixed;
+	/* background-color: #fff; */
+	z-index: 100;
+	top: 51px;
+	left: 0;
+	/* height: 51px; */
+	/* display: block; */
+}
+
+#border-bottom{
+	border-top: 27px solid black;
+	width: 100%;
+	position: fixed;
+	/* background-color: #fff; */
+	z-index: 100;
+	bottom: 51px;
+	left: 0;
+	/* height: 51px; */
+}
+
+#border-left{
+	border-right: 27px solid black;
+	height:100%;
+	/* width: 51px; */
+	left: 51px;
+	top: 0;
+	position: fixed;
+	/* background-color:#fff; */
+	z-index: 100;
+}
+#border-right{
+border-left: 27px solid black;
+    height: 100%;
+ 
+/* width: 51px; */
+    
+right: 51px;
+    
+top: 0;
+    position: fixed;
+    
+/* background-color: #fff; */
+    
+z-index: 200;
+}
+.container{
+	/* border-left: 27px solid black; */
+	/* border-right: 27px solid black; */
+	/* margin: 78px 80%; */
+	margin-top: 78px;
+	margin-bottom: 78px;
+}
+
+#hiddenhead{
+	display: none;
+}
+
+.handwriting{
+	width: 64%;
+	float: left;
+	margin-left: 100px;
+	margin-top: 116px;
+	margin-bottom: 45px;
+}
+
